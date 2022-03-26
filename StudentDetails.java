@@ -6,25 +6,25 @@ public class StudentDetails {
     String name=" ";
     String section;
     int rollNum;
+    static String univ ="gehu";
 
-    void setValue(String nme,String Scn,int rn)
+    void setValue(String name,String Section,int rollNum)
     {
-     name=nme;
-     section=Scn;
-     rollNum=rn;
-
-
-
+     this.name=name;
+     this.section=Section;
+     this.rollNum=rollNum;
 
     }
 
     void show()
     {
-        System.out.println("student name: "+ name);
-        System.out.println("student section: "+ section);
-        System.out.println("student roll number: "+ rollNum);
+        System.out.println("student name: "+ this.name);
+        System.out.println("student section: "+ this.section);
+        System.out.println("student roll number: "+ this.rollNum);
+        System.out.println("student campus is: "+ this.univ);
 
     }
+
     public static void main(String args[])
     {
 
