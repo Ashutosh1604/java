@@ -7,10 +7,10 @@ public class Bank {
     long accNum;
     int balance=500000;
 
-    void insert(String nme,long aNum)
+    void insert(String name,long accNum)
     {
-        name=nme;
-        accNum=aNum;
+        this.name=name;
+        this.accNum=accNum;
 
     }
 
